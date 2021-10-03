@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImpactActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Listening..."
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/textViewVibration"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Vibration"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textViewAudio"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Audio"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

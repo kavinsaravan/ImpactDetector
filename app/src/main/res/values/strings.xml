@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImpactDetector</string>
+    <string name="welcome_message">Press the button below to start detecting break-ins</string>
+    <string name="start">Start</string>
+</resources>
